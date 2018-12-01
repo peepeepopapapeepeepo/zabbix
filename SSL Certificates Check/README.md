@@ -54,4 +54,4 @@
 
 - 2018/12/01
   - Edit zext_ssl_expiry.sh and zext_ssl_issuer.sh to let openssl terminate after operation finish.
-  - Edit zext_ssl_expiry.sh to support command `date -d "YYYY-MM-DD HH:MI:SS" +%s` in Alpine Linux which come with[zabbix-proxy-sqlite3](https://hub.docker.com/r/zabbix/zabbix-proxy-sqlite3) container
+  - Edit zext_ssl_expiry.sh to support command `date -d "YYYY-MM-DD HH:MI:SS" +%s` in Alpine Linux which come with [zabbix-proxy-sqlite3](https://hub.docker.com/r/zabbix/zabbix-proxy-sqlite3) container
