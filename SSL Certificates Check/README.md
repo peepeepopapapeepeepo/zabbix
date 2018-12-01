@@ -10,7 +10,7 @@
 - Run container [zabbix-proxy-sqlite3](https://hub.docker.com/r/zabbix/zabbix-proxy-sqlite3)
 
   ``` sh
-  docker run \
+  docker container run \
   --name zabbix-proxy-sqlite3 \
   --env ZBX_HOSTNAME=pwowzasa802 \
   --env ZBX_SERVER_HOST=<Host_IP> \
